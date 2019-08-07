@@ -1,7 +1,6 @@
 # code your #position_taken? method here!
-def position_taken?(board, input)
-  return input
-  if board[input] == " " then
+def position_taken?(board, index)
+  if board[index] == " " then
     return false
   else 
     return true
